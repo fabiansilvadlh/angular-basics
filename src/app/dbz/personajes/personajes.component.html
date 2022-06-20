@@ -1,0 +1,7 @@
+ <h3>Personajes</h3>
+        <hr>
+        <ul>
+            <li *ngFor="let personaje of personajes">   <!--EL NGFOR VA DENTRO DE LA ETIQUETAAAAAA!!!!!!!!!!!!!!!!!!!!!  MEDIA HORA TRATANDO DE ARREGLARLO Y ERA ESO XD -->
+              {{personaje.nombre}} - {{personaje.poder  | number}}  <!-- | number  es solo decoración, agrega coma al número entre miles-->
+            </li>
+        </ul>  
